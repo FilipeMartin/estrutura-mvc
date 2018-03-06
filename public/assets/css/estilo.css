@@ -1,0 +1,204 @@
+* {
+	font-family: arial;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.containerTopo{
+	background: linear-gradient(to bottom, blue, #DDDDDD);
+    border-bottom: 1px solid #AAAAAA;
+}
+
+.menuTopo{
+	width: 1200px;
+	height: 56px;
+	margin: auto;
+}
+
+.logo{
+	float: left;
+	line-height: 56px;
+	font-size:20px;
+	color: #FFFFFF;
+	font-weight: bold;
+	text-shadow: 2px 2px 2px #000000;
+}
+
+.opcoesMenu{
+	float: right;
+}
+
+.opcoesMenu ul, .opcoesMenu li{
+	margin: 0;
+	padding: 0;
+	float: left;
+	list-style: none;
+}
+
+.opcoesMenu li{
+	line-height: 56px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.opcoesMenu a{
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size: 17px;
+	text-shadow: 1px 1px 1px #000000;
+	transition: all 1s linear;
+}
+
+.opcoesMenu a:hover{
+	color: red;
+}
+
+.containerBanner{
+	background-color: #DDDDDD;
+}
+
+.banner{
+	width: 1200px;
+	height: 300px;
+	margin: auto;
+	text-align: center;
+	line-height: 300px;
+	font-size: 50px;
+	color: red;
+	font-weight: bold;
+}
+
+.containerConteudo{
+	width: 1180px;
+	height: 500px;
+	margin: auto;
+	margin-top: 15px; 
+	box-shadow: 3px 3px 5px #888888;
+	border-top: 1px solid #888888;
+	border-left: 1px solid #888888;
+	border-radius: 4px;
+	padding: 10px;
+}
+
+.containerRodape{
+	background: linear-gradient(to top, blue, #DDDDDD);
+}
+
+.rodape{
+	width: 1200px;
+	height: 70px;
+	margin: auto;
+	margin-top: 15px;
+	text-align: center;
+	line-height: 70px;
+	font-size: 15px;
+	color: #FFFFFF;
+}
+
+.chat{
+	background: linear-gradient(to bottom, red, #DDDDDD);
+	width: 240px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	color: #FFFFFF;
+	font-weight: bold;
+	text-shadow: 1px 1px 2px #000000;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+.chat:hover{
+	color: #AAAAAA;
+}
+
+.boxChat{
+	background: #FFFFFF;
+	width: 240px;
+	height: 40px; 
+	margin: 10px;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	transition: all 1s linear;
+	border-radius: 3px;
+	box-shadow: 2px 2px 5px #000000;
+}
+
+.boxChat:hover {
+	height: 300px;
+}
+
+.form{
+	width: 350px;
+	padding: 20px 30px 20px 20px;
+}
+
+.campoForm{
+	width: 100%;
+	margin-top: 3px;
+	padding: 5px;
+	border-radius: 3px;
+	border: 1px solid #888888; 
+}
+
+.btnEntrar{
+	background-color: blue;
+	padding: 8px 13px 8px 13px;
+	border: 0;
+	border-radius: 3px;
+	font-size: 15px;
+	color: #FFFFFF;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #000000;
+	cursor: pointer;
+	margin-top: 15px;
+}
+
+.btnEntrar:hover{
+	background-color: #2424b7;
+}
+
+.btnHover{
+	background-color: #2424b7;
+}
+
+.loginFundo{
+	position: fixed;
+	background-color: #000000;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	opacity: 0.7;
+	cursor: pointer;
+	display: none;
+}
+
+.containerLogin{
+	background-color: #FFFFFF;
+	width: 400px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-top: -180px;
+	margin-left: -200px;
+	border-radius: 6px;
+	box-shadow: 3px 3px 5px #000000;
+	display: none;
+}
+
+.txtAvisoCampo{
+	color: red;
+	margin-top: 3px;
+}
+
+.txtPgInvalido{
+	text-align: center;
+	color: red;
+	font-size: 30px;
+	font-weight: bold;
+}
